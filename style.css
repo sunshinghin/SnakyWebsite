@@ -1,0 +1,89 @@
+
+:root{
+  --bg: #343a40;
+  --font: 'Poppins', sans-serif;
+  --red: #dc3545;
+  --text_border: -2px 2px 0 #000, 
+
+                2px 2px 0 #000, 
+
+               2px -2px 0 #000, 
+
+              -2px -2px 0 #000; 
+}
+
+html {
+  background-color: var(--bg);
+  font-family: var(--font);
+}
+
+.top-title{
+  background-color: var(--bg);
+  
+  padding-left: 6vw;
+  padding-top: 15vw;
+  margin-bottom: 0vw;
+}
+
+.top-title h1{
+  
+  font-family: var(--font);
+  color: var(--red);
+  font-size: 9vw;
+  text-shadow: var(--text_border)
+}
+
+.top-btn{
+  padding-top: 0vw;
+}
+
+.top-btn a{
+  font-family: var(--font);
+  font-size: 4vw;
+}
+
+.navbar{
+  font-family: var(--font);
+}
+
+.top-img{
+  margin-left: 60vw;
+  margin-bottom: -7vw;
+}
+
+.cardtitle{
+  text-align: center;
+  font-size: 12vw;
+  color: var(--red);
+  text-shadow: var(--text_border);
+}
+
+.card{
+  margin-top: 13vw;
+}
+
+.qnatitle{
+  text-align: center;
+  font-size: 9vw;
+  font-family: var(--font);
+  color: var(--red);
+  text-shadow: var(--text_border);
+  background-color: var(--bg);
+  margin-bottom: 0vw;
+  padding-top: 13vw;
+  padding-bottom: 13vw;
+}
+
+.footer h5{
+  margin-bottom: 0vw;
+  font-size: 3vw;
+  background-color: var(--bg);
+  font-family: var(--font);
+  text-align: center;
+  color: grey;
+}
+
+.footer{
+  background-color: var(--bg);
+  padding-top: 7vw;
+}
